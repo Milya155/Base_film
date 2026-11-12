@@ -1,0 +1,5 @@
+.sidebar { width: 220px; flex-shrink: 0; padding: 24px 14px; background: #fff; border-right: 1px solid #eceaf2; }
+.sidebar-nav { display: grid; gap: 6px; }
+.sidebar-link { color: #777585; padding: 11px 13px; border-radius: 9px; font-size: 14px; }
+.sidebar-link:hover,.sidebar-link-active { background: #f1edfc; color: #694bb5; font-weight: 600; }
+@media(max-width:650px){.sidebar{width:100%;padding:8px 12px;border-right:0;border-bottom:1px solid #eceaf2}.sidebar-nav{display:flex;overflow:auto}.sidebar-link{white-space:nowrap}}

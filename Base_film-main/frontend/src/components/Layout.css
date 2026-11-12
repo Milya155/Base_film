@@ -1,0 +1,4 @@
+.layout { min-height: 100vh; background: #f8f7fb; }
+.layout-body { display: flex; min-height: calc(100vh - 66px); }
+.layout-main { flex: 1; min-width: 0; padding: 34px clamp(18px,4vw,48px); }
+@media(max-width:650px){.layout-body{flex-direction:column}.layout-main{padding:24px 16px}}

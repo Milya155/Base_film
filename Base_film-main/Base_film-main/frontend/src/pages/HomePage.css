@@ -1,0 +1,14 @@
+.home { max-width: 900px; }
+.home-eyebrow,.film-detail-kicker { color: #a5a5b3; font-size: 11px; letter-spacing: 2px; font-weight: 700; margin: 18px 0 12px; }
+.home-title { font-size: clamp(34px, 5vw, 54px); line-height: 1.08; letter-spacing: -1.8px; margin: 0 0 16px; }
+.home-title span { color: #a78bfa; }
+.home-subtitle { color: #777789; max-width: 650px; line-height: 1.7; margin-bottom: 32px; }
+.home-cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 16px; }
+.home-card { background: #fff; border: 1px solid #eceaf2; border-radius: 16px; padding: 24px; transition: .2s; }
+.home-card:hover { transform: translateY(-3px); border-color: #c4b5fd; box-shadow: 0 12px 30px #2920440d; }
+.home-card-icon { color: #8b5cf6; font-size: 28px; margin-bottom: 16px; }
+.home-card-title { color: #272536; font-weight: 700; font-size: 17px; margin-bottom: 8px; }
+.home-card-text { color: #858494; font-size: 14px; line-height: 1.6; }
+.home-examples { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 30px; color: #858494; font-size: 13px; }
+.home-examples strong { color: #393747; margin-right: 5px; }
+.home-examples span { background: #f0edfa; border-radius: 20px; padding: 7px 12px; }

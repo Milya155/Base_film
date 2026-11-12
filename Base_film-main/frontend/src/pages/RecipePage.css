@@ -1,0 +1,4 @@
+.recipe-page { max-width: 900px; }
+.recipe-page .recipe-name { color: #302e3d; }
+.recipe-page .recipe-back { display: inline-block; margin-bottom: 12px; }
+.similar-films .recipes-grid { margin-top: 14px; }
